@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./component/bgqu.jpg') no-repeat center center fixed;
+    background-size: cover;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .mainC{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;  
+    gap: 25px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .Head {
+        font-size: xx-large;
+        font-style: italic;
+        color: red;
   }
-}
+
+    .card {
+   
+        height: 300px;
+        width : 400px;
+        margin-left: 560px;
+        border: 5px solid aliceblue;
+
+        border-radius: 40px;
+    }
+
+    .btn {
+        width: 200px;
+        margin-left:  659px;
+        cursor: pointer;
+        border:  2px solid aliceblue;
+        color: red;
+        background-color: pink;
+        border-radius: 20px;
+
+    }
+
+    .Answer {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        color: red;
+        font-size: xx-large;
+
+    }
